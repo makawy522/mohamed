@@ -527,10 +527,10 @@ font-weight: 600;
   padding: 15px 0;
   background-color: #333;
 }
-.footer h5{
+.footer p{
   color: #fff;
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 18px;
+  font-weight: 00;
   padding: 10px 0;
 }
 .footer i{
