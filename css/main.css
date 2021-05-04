@@ -73,7 +73,8 @@ body{
     margin-top: 20px;
     color: #fff;
     border: 2px solid #fff;
-    transition: all .5s ease-in-out;
+    transition: all .5s cubic-bezier(0.4, 0, 0.85, 0.82);
+  
 }
 
 .header .btn-download:hover{
@@ -130,7 +131,7 @@ box-shadow: -2px -5px 13px #333;
 .design i {
     color: #ccc;
     margin:0px 20px;
-    transition: all 1s ease-in-out;
+    transition: all .5s cubic-bezier(0.4, 0, 0.85, 0.82);
     cursor: pointer;
     }
     .design i:hover{
@@ -536,7 +537,7 @@ font-weight: 600;
 .footer i{
   color: #eee;
   margin: 5px 20px;
-  transition: all .8s ease-in-out;
+  transition: all .5s cubic-bezier(0.4, 0, 0.85, 0.82);
   cursor: pointer;
 }
 .footer .fa-facebook-square:hover{
