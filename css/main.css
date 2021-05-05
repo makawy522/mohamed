@@ -8,11 +8,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-/* Start NavBar  */
-.scrolled{
-    background: #333  !important;
-    /* opacity: .8; */
-}
+
 
 .navbar{
     margin-bottom: 0;
@@ -34,7 +30,7 @@ body{
 /* Start Header   */
 
 .header{
-    background: url('../assets/pexels-ricardo-esquivel-1563277.jpg') no-repeat top center;
+    background: url('../assets/01.jpg') no-repeat top center;
     background-size :cover;
     min-height: 100vh;
     position: relative;
@@ -53,7 +49,7 @@ body{
     height: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .665);
 }
 .header .text{
   /* width: 65%; */
@@ -439,7 +435,7 @@ font-weight: 600;
 /* End Trstimonals  */
 /* Start stylish  */
 .stylish{
-  background: url('../assets/12.jpg');
+  background-image: url(../assets/12.jpg);
   background-size: cover;
   position: relative;
   min-height: 450px;
@@ -486,12 +482,13 @@ background-color: var(--main-color);
 
 /* Start Contact Us  */
 .contact-us{
-  background:url('/assets/pexels-kourosh-qaffari-1583582.jpg');
+  background-image: url(../assets/02.jpg);
   background-size: cover;
   min-height: 600px;
   color: #fff;
+  background-position: center;
+  z-index: 2;
   padding: 50px 0;
-
   /* margin-bottom: 20px; */
 }
 
